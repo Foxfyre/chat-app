@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#003087" />
+    <title>JSMUD</title>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+
+  <body>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="container">
+      <div class="chat-page-header"><h3>Title Header Maybe?</h3></div>
+      <div class="chat-pane">
+        <div class="message-pane"><ul id="messages"></ul></div>
+        <form action="">
+          <div class="input-line">
+            <input class="input-bar" id="m" autocomplete="off" />
+            <button class="input-button">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.2/socket.io.min.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
